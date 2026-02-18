@@ -11,11 +11,10 @@ export default function Kanji({ character,}) {
         const codePoint = character.codePointAt(0).toString(16).toLowerCase()
         const paddedCode = codePoint.padStart(5, "0")
 
-        const url = `https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${paddedCode}.svg`
-        const corsProxy = "https://corsproxy.io/?"
-        const fetchUrl = `${corsProxy}${encodeURIComponent(url)}`
+        const url = `https://cdn.jsdelivr.net/gh/KanjiVG/kanjivg/kanji/${paddedCode}.svg`;
 
-        fetch(fetchUrl)
+
+        fetch(url)
             .then((res) => {
                 if (!res.ok) throw new Error("SVG not found")
                 return res.text()
