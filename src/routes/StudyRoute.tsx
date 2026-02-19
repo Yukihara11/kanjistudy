@@ -21,7 +21,7 @@ export default function StudyRoute() {
 
     return (
         <div>
-            <div className="flex flex-row justify-center g-2">
+            <div className="flex flex-row justify-center g-2 mb-3">
                 <SearchBar setFilteredKanji={setSearchState} />
                 <FilterDropdown setSelectedLevel={setCurrentLevelState} />
             </div>
