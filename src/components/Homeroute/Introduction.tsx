@@ -7,7 +7,9 @@ interface Link {
 
 const links: Link[] = [
     { id: 1, value: "https://kanjiapi.dev/", text: "KanjiApi" },
-    { id: 2, value: "https://kanjivg.tagaini.net/", text: "KanjiVG" }
+    { id: 2, value: "https://kanjivg.tagaini.net/", text: "KanjiVG" },
+    {id:3, value: "https://github.com/nihongodera/kanjivganimate/tree/master", text:"kanjivganimate"},
+
 ]
 
 export default function Introduction() {
