@@ -6,9 +6,9 @@ interface Link {
 }
 
 const links: Link[] = [
-    { id: 1, value: "https://kanjiapi.dev/", text: "KanjiApi" },
-    { id: 2, value: "https://kanjivg.tagaini.net/", text: "KanjiVG" },
-    {id:3, value: "https://github.com/nihongodera/kanjivganimate/tree/master", text:"kanjivganimate"},
+    {id: 1, value: "https://kanjiapi.dev/", text: "KanjiApi"},
+    {id: 2, value: "https://kanjivg.tagaini.net/", text: "KanjiVG"},
+    {id: 3, value: "https://github.com/nihongodera/kanjivganimate/tree/master", text: "kanjivganimate"},
 
 ]
 
@@ -21,7 +21,10 @@ export default function Introduction() {
 
             <p className="mb-4">
                 This Website contains all <strong>~2000</strong> Jouyoukanji. It is here to provide everyone with
-                meanings, readings, and stroke order of Kanji to help you learn easier.
+                meanings, readings, vocabulary and stroke order of Kanji to help you learn easier. The Website is
+                currently a Work in Progress. Many Features are still missing as well as many bugs in functionality and
+                design more than likely to be existent. I work on this Project alone while also managing a fulltime job
+                and university so please take it easy on me
             </p>
 
             <h3 className="mb-4">
