@@ -21,8 +21,7 @@ export default function Introduction() {
 
             <p className="mb-4">
                 This Website contains all <strong>~2000</strong> Jouyoukanji. It is here to provide everyone with
-                meanings, readings, and stroke order of Kanji to help you learn easier. Below you will find a short
-                tutorial on what each tab beholds and how to use the website correctly.
+                meanings, readings, and stroke order of Kanji to help you learn easier.
             </p>
 
             <h3 className="mb-4">
