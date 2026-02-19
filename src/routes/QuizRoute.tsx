@@ -1,8 +1,8 @@
 
 
-export default function QuizRout(){
+export default function QuizRoute(){
     return (
-        <div className>
+        <div>
             <h1 className="text-9xl text-center">Work in Progress</h1>
         </div>
     )

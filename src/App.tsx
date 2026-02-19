@@ -1,23 +1,24 @@
-import {Outlet, Link} from 'react-router'
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
-import {Bounce, ToastContainer} from "react-toastify";
+import { Outlet } from "react-router"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import { Bounce, ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
-function App(){
-    return(
+export default function App() {
+    return (
         <div data-theme="dark" className="bg-white dark:bg-gray-900 dark:text-white">
             <header>
-                <Header/>
+                <Header />
             </header>
 
             <main className="h-[100%]">
-                <Outlet/>
+                <Outlet />
             </main>
 
             <footer>
-                <Footer/>
+                <Footer />
             </footer>
+
             <ToastContainer
                 position="bottom-left"
                 autoClose={1000}
@@ -31,10 +32,7 @@ function App(){
                 pauseOnHover={false}
                 theme="dark"
                 transition={Bounce}
-
             />
         </div>
     )
 }
-
-export default App
