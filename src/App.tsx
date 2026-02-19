@@ -6,12 +6,12 @@ import "react-toastify/dist/ReactToastify.css"
 
 export default function App() {
     return (
-        <div data-theme="dark" className="bg-white dark:bg-gray-900 dark:text-white">
+        <div data-theme="dark" className="dark:bg-gray-900 dark:text-white min-w-screen min-h-screen flex flex-col">
             <header>
                 <Header />
             </header>
 
-            <main className="h-[100%]">
+            <main className="flex-1 w-full md:max-w-4xl mx-auto px-4">
                 <Outlet />
             </main>
 

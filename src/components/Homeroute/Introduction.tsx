@@ -12,7 +12,7 @@ const links: Link[] = [
 
 export default function Introduction() {
     return (
-        <div className="justify-items-center text-2xl/10 pl-100 pr-100 text-center mb-7">
+        <div className="justify-items-center text-2xl/10  text-center mb-7">
             <h2 className="text-5xl underline underline-offset-8 font-extrabold font-mono mb-4">
                 Welcome to KanjiStudy
             </h2>
