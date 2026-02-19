@@ -20,7 +20,7 @@ export default function Introduction() {
             </h2>
 
             <p className="mb-4">
-                This Website contains around <strong>13.000</strong> Kanji. It is here to provide everyone with
+                This Website contains all <strong>~2000</strong> Jouyoukanji. It is here to provide everyone with
                 meanings, readings, and stroke order of Kanji to help you learn easier. Below you will find a short
                 tutorial on what each tab beholds and how to use the website correctly.
             </p>
